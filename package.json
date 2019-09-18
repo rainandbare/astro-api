@@ -1,0 +1,26 @@
+{
+  "name": "astro-api",
+  "version": "1.0.0",
+  "description": "Access information about astrology AS A SERVICE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainandbare/astro-api.git"
+  },
+  "author": "Suzette McCanny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainandbare/astro-api/issues"
+  },
+  "homepage": "https://github.com/rainandbare/astro-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo-hacker": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
