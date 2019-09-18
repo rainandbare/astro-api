@@ -3,7 +3,7 @@ const express = require('express');
 // we create an app using express's express() function
 const app = express();
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.json({"message": "Yes, It is working!"});
