@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
     res.json({"message": "Yes, It is working!"});
 });
 
+app.get('/new', (req, res) => {
+    res.json({"message": "a new route"});
+});
+
 app.listen(port, () => {
     console.log(`I am listening on port ${port}`)
 })
